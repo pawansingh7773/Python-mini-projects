@@ -1,6 +1,7 @@
 import cv2
 
-# Load a hand cascade (You may need to download an XML file for OpenCV)
+
+
 hand_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'hand.xml')
 
 # Open webcam
